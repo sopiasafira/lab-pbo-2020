@@ -1,20 +1,24 @@
 /**
-* Program berikut untuk mencoba seleksi if
+ *Program berikut untuk mencoba seleksi if
 */
 import java.util.Scanner;
 
 
 public class IfExample {
-public static void main(String[] args) {
-int age=0;
-Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) {
+	int age=0;
+	Scanner sc = new Scanner(System.in);
 
 
-System.out.println("Masukkan umur anda:");
-age = sc.nextInt();
+	System.out.println("Masukkan umur anda:");
+	age = sc.nextInt();
 
 
-if(age>=17)
-System.out.print("Anda sudah boleh buat KTP");
+	if(age>=17)
+		System.out.print("Anda sudah boleh buat KTP");
+	}
 }
-}
+/*
+program yang meminta user untuk input umur, jika umur > 17 nanti akan dicetak
+"Anda sudah boleh buat KTP"
+*/
