@@ -1,0 +1,5 @@
+MODUL PRAKTIKUM PEMROGRAMAN BERORIENTASI OBJEK 
+ARRAY, STRING 
+Praktikum pemrograman berorientasi objek adalah praktikum yang menggunakan bahasa Java sebagai
+bantuan dalam memahami konsep pemrograman berorientas i objek. Materi praktikum berisi teori, 
+latihan dan soal pemrograman. 
