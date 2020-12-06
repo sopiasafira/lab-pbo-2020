@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Item
+comment0.text=\r\n\ Kelas\ Item\ mewakili\ item\ multi-media.\r\n\ Informasi\ tentang\ item\ disimpan\ dan\ dapat\ diambil\ kembali.\r\n\ Kelas\ ini\ berfungsi\ sebagai\ superclass\ untuk\ itms\ yang\ lebih\ spesifik.\r\n\ \r\n\ @author\ Michael\ Kolling\ and\ David\ J.\ Barnes\r\n\ @version\ 2008.03.30\r\n
+comment1.params=theJudul\ time
+comment1.target=Item(java.lang.String,\ int)
+comment1.text=\r\n\ Inisialisasi\ bidang\ item.\r\n\ @param\ theJudul\ adalah\ judul\ item.\r\n\ @param\ time\ adalah\ waktu\ item.\r\n
+comment2.params=comment
+comment2.target=void\ setComment(java.lang.String)
+comment2.text=\r\n\ Masukkan\ komentar\ untuk\ item\ .\r\n\ @param\ comment\ adalah\ komentar\ yang\ akan\ dimasukkan.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getComment()
+comment3.text=\r\n\ @mengembalikan\ komentar\ item.\r\n
+comment4.params=ownIt
+comment4.target=void\ setOwn(boolean)
+comment4.text=\r\natur\ keadaan\ apakah\ memiliki\ item\ ini\ atau\ tidak.\r\n\ @param\ "ownIt"\ akan\ true\ jika\ kita\ memiliki\ item\ tersebut.\r\n\ false\ jika\ sebaliknya.\r\n
+comment5.params=
+comment5.target=boolean\ getOwn()
+comment5.text=\r\n\ @kembalikan\ true\ jika\ punya.\r\n
+comment6.params=
+comment6.target=void\ print()
+comment6.text=\r\ncetak\ detail\ item\ ini\ ke\ program\r\n
+numComments=7

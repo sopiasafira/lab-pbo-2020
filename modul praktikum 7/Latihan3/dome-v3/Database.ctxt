@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Database
+comment0.text=\r\n\ Kelas\ database\ menyediakan\ fasilitas\ untuk\ menyimpan\ objek\ CD\ dan\ video.\ \r\n\ Daftar\ semua\ CD\ dan\ video\ dapat\ dicetak\ ke\ terminal.\r\n\ \r\n\ Versi\ ini\ tidak\ menyimpan\ data\ ke\ disk,\ dan\ tidak\r\n\ menyediakan\ fungsi\ pencarian.\r\n\ \r\n\ @author\ Michael\ Kolling\ and\ David\ J.\ Barnes\r\n\ @version\ 2008.03.30\r\n
+comment1.params=
+comment1.target=Database()
+comment1.text=\r\n\ Construct\ kosong\ database.\r\n
+comment2.params=theItem
+comment2.target=void\ addItem(Item)
+comment2.text=\r\n\ Tambahkan\ item\ ke\ database\r\n\ @param\ theItem\ adalah\ item\ yang\ akan\ ditambahakn\r\n
+comment3.params=
+comment3.target=void\ list()
+comment3.text=\r\n\ Cetak\ daftar\ semua\ CD\ dan\ video\ yang\ saat\ ini\ disimpan\ ke\r\n\ terminal\ teks.\r\n
+numComments=4

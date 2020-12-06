@@ -1,0 +1,32 @@
+Latihan 2
+Soal : Apakah perbedaan method overloading dan method overriding? Apakah kedua konsep tersebut terkait
+dengan inheritance dan polimorfisme
+
+Jawab : Perbedaannya adalah
+method overloading adalah : Method yang terjadi pada sebuah class yang memiliki nama method yang sama 
+tapi memiliki parameter dan tipe data yang berbeda.
+Sedangkan method overriding itu adalah :method yang terdapat di sub class
+
+Perbedaan lainnya adalah:
+*Dalam method overloading, jumlah dan tipe parameter (termasuk urutannya) atau disebut dengan 
+istilah method signature mengalami perubahan, sedangkan pada method overriding tidak berubah atau tetap.
+
+*Method overloading dapat dilakukan pada class yang sama, namun overriding hanya dapat dilakukan pada 
+subclass dengan signature yang sama dan tipe return yang sama. Sedangkan pada overloading, tipe return ini bisa sama atau berbeda.
+
+*Method private, final atau static tidak bisa di overrride, namun method tersebut bisa overloading. 
+Artinya suatu class dapat memiliki lebih dari satu method private, final atau static dengan nama yang sama, 
+namun sub class tidak dapat meng-override private, final atau static method tersebut dari super class.
+
+*Method overloading pada Java terikat oleh static binding sedangkan method overriding merupakan subjek dari dynamic binding.
+
+*Method overloading terjadi pada saat compile time sedangkan overriding terjadi pada waktu runtime.
+
+Apakah kedua konsep tersebut terkait dengan inheritance dan polimorfisme:
+"IYA"
+Method overriding yang artinya memberikan implementasi yang baru dari suatu method pada subclass, 
+jadi method ini berada pada class yang berbeda yang terkait dalam INHERITANCE. Sedangkan polimorfisme dinamis terjadi pada saat ada hubungan 
+dengan class lain seperti inheritance.
+
+Untuk method overloading "IYA" terkait juga, sebagai contoh, ada sebuah class yang memiliki method yang sama yakni luas().
+Tapi parameter dan tipe datanya berbeda dan juga isi atau rumus di dalamnya berbedaInilah yang disebut polimorfisme satatis.

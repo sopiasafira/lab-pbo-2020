@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CD
+comment0.text=\r\nKelas\ CD\ mewakili\ objek\ CD.\ \r\nInformasi\ tentang\ CD\ disimpan\ dan\ dapat\ diambil\ kembali.\r\n\ \r\n\ @author\ Michael\ Kolling\ and\ David\ J.\ Barnes\r\n\ @version\ 2008.03.30\r\n
+comment1.params=theJudul\ theArtis\ trak\ time
+comment1.target=CD(java.lang.String,\ java.lang.String,\ int,\ int)
+comment1.text=\r\n\ Inisialisasi\ dari\ CD.\r\n\ @param\ theJudul\ dari\ Judul\ CD.\r\n\ @param\ theArtis\ adalah\ Artis\ yang\ ada\ pada\ CD.\r\n\ Trek\ @param\ Jumlah\ trek\ pada\ CD.\r\n\ @param\ time\ Waktu\ pemutaran\ CD.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getArtis()
+comment2.text=\r\n\ @mengembalikan\ nama\ artis\ pada\ CD\r\n
+comment3.params=
+comment3.target=int\ getNomorTrak()
+comment3.text=\r\n\ @mengembalikan\ jumlah\ trak\ CD\ ini\r\n
+numComments=4
