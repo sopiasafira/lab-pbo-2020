@@ -5,7 +5,7 @@
  * @author (Sopia)
  * @version (Gosong Telaga, 6 Desember 2020)
  */
-public class Lingkaran
+public class Lingkaran1
 {
     private double jari_jari;
 
