@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=DVD
+comment0.text=\r\n\ Kelas\ DVD\ mewakili\ objek\ DVD.\ \r\n\ Informasi\ tentang\ DVD\ disimpan\ dan\ dapat\ diambil\ kembali.\ \r\n\ Asumsinya\ adalah\ berurusan\ dengan\ DVD\ film\ pada\ tahap\ ini.\r\n\ \r\n\ @author\ Michael\ Kolling\ and\ David\ J.\ Barnes\r\n\ @version\ 2008.03.30\r\n
+comment1.params=theJudul\ theDirektur\ time
+comment1.target=DVD(java.lang.String,\ java.lang.String,\ int)
+comment1.text=\r\n\ Constructor\ untuk\ objek\ pada\ class\ DVD\r\n\ @param\ theJudul\ adalah\ judul\ DVD\ ini.\r\n\ @param\ theDirektur\ adalah\ direktur\ DVD\ ini.\r\n\ @param\ time\ adalah\ waktu\ untuk\ DVD\ saat\ di\ play.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getDirektur()
+comment2.text=\r\n\ @kembalikan\ direktur\ dari\ DVD\ ini\r\n
+numComments=3
