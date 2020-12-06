@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=CD
+comment0.text=\r\n\ Kelas\ CD\ mewakili\ objek\ CD.\ Informasi\ tentang\r\n\ CD\ dapat\ diambil\ dan\ disimpan\r\n\ \r\n\ @author\ Michael\ Kolling\ and\ David\ J.\ Barnes\r\n\ @version\ 2008.03.30\r\n
+comment1.params=theJudul\ theArtis\ tracks\ time
+comment1.target=CD(java.lang.String,\ java.lang.String,\ int,\ int)
+comment1.text=\r\n\ Inisialisasi\ CD.\r\n\ @param\ judul\ CD.\r\n\ @param\ Artis\ dari\ CD.\r\n\ @param\ Jumlah\ trek.\r\n\ @param\ waktu\ pemutaran.\r\n
+comment2.params=comment
+comment2.target=void\ setComment(java.lang.String)
+comment2.text=\r\n\ Memasukkan\ komentar\ untuk\ CD.\r\n\ @param\ comment,\ untuk\ komentar\ yang\ dimasukkan.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getComment()
+comment3.text=\r\n\ @untuk\ mengembalikan\ komentar\ yang\ ada.\r\n
+comment4.params=ownIt
+comment4.target=void\ setOwn(boolean)
+comment4.text=\r\n\ Setel\ keadaan\ apakah\ kita\ memiliki\ CD\ ini.\r\n\ @param\ "ownIt"\ true\ jika\ kita\ punya,\ false\ jika\ sebaliknya.\r\n
+comment5.params=
+comment5.target=boolean\ getOwn()
+comment5.text=\r\n\ @return\ true\ jika\ kamu\ punya\ CD\ ini.\r\n
+comment6.params=
+comment6.target=void\ print()
+comment6.text=\r\n\ Print\ detail\ tentang\ CD\ ini.\r\n
+numComments=7
