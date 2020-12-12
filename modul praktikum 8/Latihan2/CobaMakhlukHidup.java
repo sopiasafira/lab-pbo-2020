@@ -27,3 +27,8 @@ public class CobaMakhlukHidup
         hwan.berjalan();
     }
 }
+
+/*saat penambahan objek 
+MakhlukHidup mh = new MakhlukHidup();
+terjadi eror, karena kita tidak bisa menciptakan objek dari class abstract
+*/

@@ -26,3 +26,10 @@ public class Manusia extends MakhlukHidup
         System.out.println("Manusia berjalan dengan 2 kaki");
     }
 }
+
+/*
+Pada saat kita membuat method berjalan pada class ini menjadi comment, maka keluar eror saat di compile.
+ini disebabkan karena abstract class telah mengovveride method abstracnya
+yaitu berjalan kepada sub-kelasnya dan jika tidak maka sub-kelas harus juga bertipe abstract.
+makanya ketika error massage nya adalah "manusia bukan abstract class dan juga tidak override method abastrac"
+*/

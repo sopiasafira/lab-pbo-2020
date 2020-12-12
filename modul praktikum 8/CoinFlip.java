@@ -7,10 +7,10 @@ public class CoinFlip {
         // 50% chance heads, 50% chance tails
         Random rand = new Random(); //untuk random
         double chance = rand.nextDouble();
-        if (chance < 0.5) { //syaray
-            System.out.println("heads!"); 
+        if (chance < 0.5) { //syarat
+            System.out.println("heads!"); //jika lesematan lebih kecil dari 0.5 maka cetak heads!
         } else {
-            System.out.println("tails!"); 
+            System.out.println("tails!"); //lainnya maka cetak tails!
         }
     } 
 }
