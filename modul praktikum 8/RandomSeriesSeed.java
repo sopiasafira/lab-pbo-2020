@@ -21,3 +21,6 @@ public class RandomSeriesSeed {
  
     }
 }
+
+/*class ini menggunakan fungsi math random
+*/
