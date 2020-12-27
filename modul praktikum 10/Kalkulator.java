@@ -38,15 +38,15 @@ public class Kalkulator {
             System.out.println("Hasil: " + result);
 
         } catch (Exception e) {
-            System.out.println("Number formatting exception " +
-e.getMessage());
+            System.out.println("Number formatting exception " +e.getMessage());
         }
     }
-
     class InputHelper{
+        
         public String getInput(String prompt) {
             System.out.print(prompt);
             Scanner sc = new Scanner(System.in);
             return sc.nextLine();
         }
     } 
+ 
