@@ -1,11 +1,8 @@
-import java.util.HashMap;
-import java.util.Map;
-
 class Buku {
     int id;
     String nama, pengarang, publisher;
     int jumlah;
-    public Buku(int id, String nama, String pengarang, String publisher, int jumlah) 
+    public Buku(int id, String nama, String pengarang, String publisher, int jumlah) //method consturtor
     {
         this.id = id;
         this.nama = nama;

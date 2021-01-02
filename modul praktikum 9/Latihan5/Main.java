@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.Map;
+
 public class Main {
     public static void main(String[] args) {
         //Membuat map Buku
@@ -24,3 +27,8 @@ public class Main {
         }
     }
 } 
+
+/*
+HashMap merupkan subclass dari AbstractMap dan mengimplementasi interface Map. HashMap tidak
+memiliki urutan.
+*/
