@@ -1,6 +1,6 @@
 /**
  * Latihan 1 Modul Praktikum 7
- * Materi yang dibahas (COMPOSITION , POLIMORFISME)
+ * Materi yang dibahas (COMPOSITION. , POLIMORFISME)
  * @author (Sopia Safira)
  * @version (Gosong Telaga, 06 Desember 2020)
  */
