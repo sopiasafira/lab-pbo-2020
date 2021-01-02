@@ -1,17 +1,17 @@
 public class Array1{
     public static void main(String[] ar){
         //deklarasi dan inisialisasi array
-        int[] bil_bulat = {3, 5, 7};
-        String[] warna = {"merah", "hijau", "kuning"};
+        int[] bil_bulat = {3, 5, 7}; //variabel dari array int bilangan bulat
+        String[] warna = {"merah", "hijau", "kuning"}; ////variabel dari array warna
 
         //menampilkan array
-        for(int i=0;i<bil_bulat.length;i++){
-            System.out.print(bil_bulat[i] +" ");
+        for(int i=0;i<bil_bulat.length;i++){ //untuk i = 0, i lebih kecil dari panjang.bilanganbulat, i ++
+            System.out.print(bil_bulat[i] +" "); //maka cetak angka 3,5,7
         }
       System.out.println();
   
-      for(int i=0;i<warna.length;i++){
-            System.out.print(warna[i] +" ");
+      for(int i=0;i<warna.length;i++){ //untuk i = 0, i lebih kecil dari panjang.warna, i ++
+            System.out.print(warna[i] +" "); //maka cetak merah, hijau, kuning
       }
       System.out.println();
   
@@ -26,4 +26,8 @@ public class Array1{
         System.out.println();
       }
     }
-}  
+} 
+
+/*
+Class ini menggunakan array
+*/ 
