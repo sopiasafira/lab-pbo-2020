@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in); //untuk scan setiap nilai yang di input user
         Bus bus1 = new Bus(); //Objek yang dibuat dari class bus
-        boolean mulai = true;
+        boolean mulai = true; //jika true maka mulai 
         String nama;
         int umur;
         
