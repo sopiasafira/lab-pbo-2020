@@ -3,7 +3,7 @@ public class Hewan {
 	private String makanan;
 
 	public Hewan(String nama, String makanan) {
-		this.nama = nama;
+		this.nama = nama; //this agar tidak ambigu
 		this.makanan = makanan;
 	}
 
