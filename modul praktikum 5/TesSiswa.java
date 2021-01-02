@@ -23,6 +23,6 @@ Berarti nilai nrp bisa sangat bebas diubah dimanapun. Hal ini sangat berbahaya. 
 di-enkaps ulasi dengan hak akses private. Ubah hak akses atribut nrp menjadi private. Kemudian coba
 kompilasi class TesSiswa maka akan muncul error.  
 
-*Hal yang sama juga berlaku pada method. Jika method dibuat private maka akan muncul error pada
+*Hal yang sama jga berlaku pada method. Jika method dibuat private maka akan muncul error pada
 class Tesiswa.
 */
