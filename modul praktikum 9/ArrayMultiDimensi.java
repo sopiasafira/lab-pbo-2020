@@ -10,7 +10,7 @@ public class ArrayMultiDimensi {
         provinsi[2][0] = "Papua Barat";
         provinsi[2][1] = "Manokwari";
 
-        for (int i = 0; i < provinsi.length; i++) {
+        for (int i = 0; i < provinsi.length; i++) { //perulangan 
             StringBuilder sb = new StringBuilder();
             sb.append("Ibukota ")
                     .append(provinsi[i][0])
@@ -21,3 +21,7 @@ public class ArrayMultiDimensi {
         }
     }
 } 
+/* 
+Class ini menggunakan Array Multi Dimenssi
+penjelasan ada pada baris
+*/

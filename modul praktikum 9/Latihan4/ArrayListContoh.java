@@ -12,7 +12,7 @@ public class ArrayListContoh {
         mahasiswa.add(mhs2);
         mahasiswa.add(mhs3);
 
-        //Perulangan menggunakan Interface Iterator
+        //Perulangan menggunakan Interface Iterator yy
         Iterator itr = mahasiswa.iterator();
 
         while (itr.hasNext()){
