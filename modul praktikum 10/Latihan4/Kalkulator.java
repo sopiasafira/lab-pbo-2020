@@ -48,5 +48,5 @@ public class Kalkulator {
             Scanner sc = new Scanner(System.in);
             return sc.nextLine();
         }
-    } 
- 
+   } 
+}
