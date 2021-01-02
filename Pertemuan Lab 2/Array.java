@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner; //import
 import java.util.ArrayList;
 
 class Array {
@@ -11,3 +11,4 @@ class Array {
 		strl.remove(0);
 	}
 }
+
