@@ -13,3 +13,6 @@ class Mahasiswa {
         this.angkatan = angkatan;
     }
 }
+ /*
+ class ini
+ */
