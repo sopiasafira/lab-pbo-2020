@@ -15,4 +15,4 @@ public class Child extends Parent {
  	} 
 }
  
-//telah ditambahkan super
+//telah diedit ditambahkan super
