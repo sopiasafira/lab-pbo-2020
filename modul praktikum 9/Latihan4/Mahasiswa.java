@@ -8,11 +8,11 @@ class Mahasiswa {
     int angkatan;
 
     Mahasiswa (String npm, String nama, int angkatan){
-        this.npm = npm;
+        this.npm = npm; //menggunkan kata this untuk menghilangkan ambigu
         this.nama = nama;
         this.angkatan = angkatan;
     }
 }
  /*
- class ini
+ 
  */
