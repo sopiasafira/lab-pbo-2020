@@ -2,36 +2,36 @@ import java.util.Scanner;
 
 public class Kalkulator {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { //method main
         Kalkulator kalkulator = new Kalkulator();
-        kalkulator.perhitungan();
+        kalkulator.perhitungan(); //memanggil method perhitungan
     }
 
     protected void perhitungan() {
-        InputHelper input = new InputHelper();
+        InputHelper input = new InputHelper(); //membuat objek input class MtahHelper
 
         String s1 = input.getInput("Masukkan angka: ");
         String s2 = input.getInput("Masukkan angka: ");
-        String op = input.getInput("Pilih operasi (+ - * /):");
+        String op = input.getInput("Pilih operasi (+ - * /):"); //memilih operasi
  
         double result = 0; 
 
         try {
             switch (op) {
-                case "+":
+                case "+": //jika memilih case peratama/+ maka kerjakan MathHelper.penambahan(s1, s2);
                     result = MathHelper.penambahan(s1, s2);
                     break;
-                case "-":
+                case "-": //jika memilih case peratama/- maka kerjakan MathHelper.pengurangan(s1, s2);
                     result = MathHelper.pengurangan(s1, s2);
                     break;
-                case "*":
+                case "*": //ika memilih case peratama/* maka kerjakan  MathHelper.perkalian(s1, s2);
                     result = MathHelper.perkalian(s1, s2);
                     break;
-                case "/":
+                case "/": //ika memilih case peratama/"/" maka kerjakan MathHelper.pembagian(s1, s2);
                     result = MathHelper.pembagian(s1, s2);
                     break;
                 default:
-                    System.out.println("Operasi tidak dikenal!");
+                    System.out.println("Operasi tidak dikenal!"); //jika memilih selain tanda yang 4 maka akan tercetak seperti disamping
                     return;
             }
 
@@ -50,3 +50,5 @@ public class Kalkulator {
         }
    } 
 }
+
+/* Program ini adalah program kalkulator yang dapat melakukan operasi penambahan, pembagian, pengurangan, perkalian.
