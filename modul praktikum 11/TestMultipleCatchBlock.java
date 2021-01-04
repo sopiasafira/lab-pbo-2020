@@ -16,4 +16,14 @@ public class TestMultipleCatchBlock{
   
     	System.out.println("rest of the code...");  
   	}  
-}   
+}
+
+
+
+/*
+ Output dari program ini adalah
+task1 is completed
+rest of the code...
+
+sama dengan code pada class TestFinallyBlock2 program di atas eror atau mengandung arithmaticexception, program tetap 
+berjalan hingga selesai karena eror sudah dihandle oleh exception handling 
